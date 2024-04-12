@@ -47,12 +47,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-<details>
-    <summary>gh-pagesへの公開の仕方（自分用メモ）</summary>
-    
-    ```shell
-    npm run build
-    git commit -am "[BUILD]"
-    git subtree push --prefix=build/ origin gh-pages
-    ```
-</details>
+## gh-pages への公開の仕方（自分用メモ）
+
+```shell
+npm run build
+git commit -am "[BUILD]"
+git subtree push --prefix=build/ origin gh-pages
+```
