@@ -45,6 +45,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+---
+
 <details>
     <summary>gh-pagesへの公開の仕方（自分用メモ）</summary>
     - `npm run build`
