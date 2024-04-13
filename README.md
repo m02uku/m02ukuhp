@@ -51,6 +51,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ```shell
 npm run build
+git checkout main
+git commit -am "[SOMETHING] something"
 git checkout gh-pages
 git commit -am "[BUILD]"
 git subtree push --prefix=build/ origin gh-pages
