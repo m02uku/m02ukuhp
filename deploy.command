@@ -8,3 +8,4 @@ git add -A
 git commit -am "[BUILD]"
 git subtree push --prefix=build/ origin gh-pages
 git checkout main
+git branch
