@@ -61,3 +61,9 @@ git commit -am "[BUILD]"
 git subtree push --prefix=build/ origin gh-pages
 git checkout main
 ```
+
+Run:
+
+```shell
+bash deploy.command
+```
