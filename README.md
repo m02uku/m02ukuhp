@@ -50,16 +50,11 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## gh-pages への公開の仕方（自分用メモ）
 
 ```shell
-git add -A
-git commit -am "[UPDATE]"
-git push -u origin main
-git checkout gh-pages
-git merge --allow-unrelated-histories origin/main
 npm run build
-git add build
-git commit -am "[BUILD]"
+git add -A
+git commit -m "[UPDATE]"
+git push -u origin main
 git subtree push --prefix=build/ origin gh-pages
-git checkout main
 ```
 
 Run:
