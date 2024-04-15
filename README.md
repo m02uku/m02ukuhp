@@ -54,7 +54,7 @@ git add -A
 git commit -am "[UPDATE]"
 git push -u origin main
 git checkout gh-pages
-git merge main
+git merge --allow-unrelated-histories origin/main
 npm run build
 git add build
 git commit -am "[BUILD]"
@@ -70,3 +70,5 @@ deploy
 # mac
 bash deploy.command
 ```
+
+(^^)
