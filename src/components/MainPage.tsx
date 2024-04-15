@@ -7,7 +7,7 @@ const MainPage = () => {
                 <RainbowTitle>モ ズ ク の ホ ー ム ペ ー ジ へ よ う こ そ ！</RainbowTitle>
             </PaddedDiv>
             <p>☆ ☆ ☆ ゆっくりしていってね ☆ ☆ ☆</p>
-            <p>^^</p>
+            <p>(^^)</p>
         </MainPageDiv>
     );
 };
