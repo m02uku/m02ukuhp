@@ -53,10 +53,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 git add -A
 git commit -am "[UPDATE]"
 git push -u origin main
-npm run build
 git checkout gh-pages
 git merge main
-git add -A
+npm run build
+git add build
 git commit -am "[BUILD]"
 git subtree push --prefix=build/ origin gh-pages
 git checkout main
@@ -65,5 +65,8 @@ git checkout main
 Run:
 
 ```shell
+# win
+deploy
+# mac
 bash deploy.command
 ```
