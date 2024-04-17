@@ -4,7 +4,19 @@ const Links = () => {
     return (
         <>
             <Sidebar />
-            <h1>This is link page.</h1>
+            <p>
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/">Twitch</a>
+                    </li>
+                </ul>
+            </p>
         </>
     );
 };
