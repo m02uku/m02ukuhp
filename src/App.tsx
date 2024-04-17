@@ -9,7 +9,7 @@ const App = () => {
             <Router basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <h1>App</h1>
-                    <Route path="/" element={<Top />} />
+                    <Route path="/m02ukuhp" element={<Top />} />
                     <Route path="/links" element={<Links />} />
                 </Routes>
             </Router>
