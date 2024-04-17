@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import AlertButton from "./AlertButton";
 
 const MainPage = () => {
     return (
@@ -9,7 +8,6 @@ const MainPage = () => {
             </PaddedDiv>
             <p>☆ ☆ ☆ ゆっくりしていってね ☆ ☆ ☆</p>
             <p>d(^^)b</p>
-            <AlertButton reaction="Hello, world!" />
         </MainPageDiv>
     );
 };
