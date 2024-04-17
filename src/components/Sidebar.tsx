@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Sidebar = () => {
@@ -6,10 +7,14 @@ const Sidebar = () => {
             <PaddedDiv>
                 <h3>メニュー</h3>
                 <ul>
-                    <li>トップ</li>
+                    <li>
+                        <Link to="/m02ukuhp">トップ</Link>
+                    </li>
                     <li>はじめに</li>
                     <li>更新情報</li>
-                    <li>リンク集</li>
+                    <li>
+                        <Link to="/links">リンク集</Link>
+                    </li>
                 </ul>
             </PaddedDiv>
         </SidebarDiv>

@@ -1,14 +1,19 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import MainPage from "./components/MainPage";
-import Sidebar from "./components/Sidebar";
+import Links from "./pages/Links";
+import Top from "./pages/Top";
 
-function App() {
+const App = () => {
     return (
         <div className="container">
-            <Sidebar />
-            <MainPage />
+            <Router>
+                <Routes>
+                    <Route path="/m02ukuhp" element={<Top />} />
+                    <Route path="/links" element={<Links />} />
+                </Routes>
+            </Router>
         </div>
     );
-}
+};
 
 export default App;
