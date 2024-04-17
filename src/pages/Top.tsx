@@ -6,7 +6,7 @@ const Links = () => {
         <>
             <Sidebar />
             <MainPage />
-            <h1>Top</h1>
+            <h1>Top{process.env.PUBLIC_URL}</h1>
         </>
     );
 };
