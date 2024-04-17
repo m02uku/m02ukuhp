@@ -19,6 +19,7 @@ const Sidebar = () => {
 const SidebarDiv = styled.div`
     width: 20%;
     background-color: #fef263;
+    white-space: nowrap;
 `;
 
 const PaddedDiv = styled.div`

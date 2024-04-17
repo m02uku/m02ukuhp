@@ -4,7 +4,7 @@ const MainPage = () => {
     return (
         <MainPageDiv>
             <PaddedDiv>
-                <RainbowTitle>モ ズ ク の ホ ー ム ペ ー ジ へ よ う こ そ ！</RainbowTitle>
+                <RainbowTitle>モズクのホームページへようこそ！</RainbowTitle>
             </PaddedDiv>
             <p>☆ ☆ ☆ ゆっくりしていってね ☆ ☆ ☆</p>
             <p>d(^^)b</p>
@@ -23,9 +23,9 @@ const RainbowTitle = styled.h1`
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline;
-    font-size: 250%;
     font-weight: bold;
     font-style: italic;
+    font-size: 2.5em;
 `;
 
 const PaddedDiv = styled.div`
