@@ -6,6 +6,7 @@ const Links = () => {
         <>
             <Sidebar />
             <MainPage />
+            <h1>Top</h1>
         </>
     );
 };
