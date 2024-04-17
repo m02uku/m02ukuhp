@@ -6,10 +6,10 @@ import Top from "./pages/Top";
 const App = () => {
     return (
         <div className="container">
+            <h1>Appa{process.env.PUBLIC_URL}</h1>
             <Router basename={process.env.PUBLIC_URL}>
                 <Routes>
-                    <h1>App</h1>
-                    <Route path="/m02ukuhp" element={<Top />} />
+                    <Route path="/" element={<Top />} />
                     <Route path="/links" element={<Links />} />
                 </Routes>
             </Router>

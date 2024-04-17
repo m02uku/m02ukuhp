@@ -8,7 +8,7 @@ const Sidebar = () => {
                 <h3>メニュー</h3>
                 <ul>
                     <li>
-                        <Link to="/m02ukuhp">トップ</Link>
+                        <Link to="/">トップ</Link>
                     </li>
                     <li>はじめに</li>
                     <li>更新情報</li>
